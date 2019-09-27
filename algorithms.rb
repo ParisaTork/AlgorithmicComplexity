@@ -2,7 +2,9 @@ require 'benchmark'
 
 # Differences between user, system and real time - https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1
 
-# One of these things is not like the other. Real refers to actual elapsed time; User and Sys refer to CPU time used only by the process.
+# One of these things is not like the other. 
+
+# Real refers to actual elapsed time; User and Sys refer to CPU time used only by the process.
 	
 # User is the amount of CPU time spent in user-mode code (outside the kernel) within the process. This is only actual CPU time used in executing the process. Other processes and time the process spends blocked do not count towards this figure.
 		
