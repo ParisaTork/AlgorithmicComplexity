@@ -2,7 +2,7 @@ require 'benchmark'
 
 # Differences between user, system and real time - https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1
 
-# One of these things is not like the other. 
+# One of these things is not like the other. Real vs User + Sys.
 
 # Real refers to actual elapsed time; User and Sys refer to CPU time used only by the process.
 	
